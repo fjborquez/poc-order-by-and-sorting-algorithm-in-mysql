@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  db:
+    image: 'fborquez/dockerized-anime-database:latest'
+    restart: always
+    ports:
+      - '3306:3306'
